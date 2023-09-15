@@ -45,6 +45,8 @@ module.exports = {
 
         localhost: {
             url: "http://127.0.0.1:8545/",
+            gas: 2100000,
+            gasPrice: 8000000000,
             // accounts:[PRIVATE_KEY], // hardhat will auto set
             // chainId: 31337, // same as hardhat
             // no need to add chain ID in newer versions
