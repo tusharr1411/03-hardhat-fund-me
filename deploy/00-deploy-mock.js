@@ -15,7 +15,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
             "**********Ahh.. directly or indirectly local network is selected. Deploying Mocks...  *********",
         )
         await deploy("MockV3Aggregator", {
-            constract: "MockV3Aggregator",
+            contract: "MockV3Aggregator",
             from: deployer,
             log: true,
             args: [DECIMALS, INITIAL_ANSWER],
